@@ -1,0 +1,9 @@
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\bin\Debug\GlassScriptManagementPS.exe.config
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\bin\Debug\GlassScriptManagementPS.exe
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\bin\Debug\GlassScriptManagementPS.pdb
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\obj\Debug\GlassScriptManagementPS.csprojResolveAssemblyReference.cache
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\obj\Debug\GlassScriptManagementPS.Form1.resources
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\obj\Debug\GlassScriptManagementPS.Properties.Resources.resources
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\obj\Debug\GlassScriptManagementPS.csproj.GenerateResource.Cache
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\obj\Debug\GlassScriptManagementPS.exe
+c:\users\mbell_000\documents\visual studio 2012\Projects\GlassScriptManagementPS\GlassScriptManagementPS\obj\Debug\GlassScriptManagementPS.pdb
