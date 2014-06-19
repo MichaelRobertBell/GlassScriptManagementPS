@@ -39,6 +39,19 @@
     "javaRuntime": true
   },
   {
+    "symbolicName": "forms-1.3.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a7cd85aa24aca15773b111eafd6959fdcdd5a915",
+    "jarFileModificationDate": "2014-06-19T14:50:10.383-04:00",
+    "location": "C:\\Users\\mbell_000\\Documents\\GitHub\\GlassScriptManagementPS\\GlassScriptManagement\\forms-1.3.0.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "jre",
     "version": {
       "major": 1,
@@ -164,7 +177,7 @@
       "qualifier": "SNAPSHOT"
     },
     "jarFileFingerprint": "7cd00f5b72f6ee56b25ff73d3f677223cca0cfe4",
-    "jarFileModificationDate": "2014-06-19T10:59:27.973-04:00",
+    "jarFileModificationDate": "2014-06-19T11:44:02.886-04:00",
     "location": "C:\\Users\\mbell_000\\Documents\\GitHub\\GlassScriptManagementPS\\GlassScriptManagement\\src\\sqlite-jdbc4-3.8.2-SNAPSHOT.jar",
     "javaRuntime": false
   },
@@ -195,19 +208,6 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "sqlite",
-    "version": {
-      "major": -1,
-      "minor": -1,
-      "micro": -1,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "0349fdb03a9f87cd538f5f4fe7fea3753116c6bb",
-    "jarFileModificationDate": "2014-06-19T10:50:14.674-04:00",
-    "location": "C:\\Users\\mbell_000\\Documents\\GitHub\\GlassScriptManagementPS\\GlassScriptManagement\\src\\sqlite.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "jre",
     "version": {
       "major": 1,
@@ -219,5 +219,18 @@
     "jarFileModificationDate": "2014-06-13T11:14:24.027-04:00",
     "location": "C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\jaccess.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "miglayout15-swing",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f00b72f394c1e22f6499b80f715272300da299ca",
+    "jarFileModificationDate": "2014-06-19T14:50:09.396-04:00",
+    "location": "C:\\Users\\mbell_000\\Documents\\GitHub\\GlassScriptManagementPS\\GlassScriptManagement\\miglayout15-swing.jar",
+    "javaRuntime": false
   }
 ]

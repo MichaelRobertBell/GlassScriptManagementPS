@@ -6,6 +6,7 @@ import javax.swing.JToolBar;
 import java.awt.BorderLayout;
 
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
@@ -77,6 +78,18 @@ public class Glass {
 		JMenuItem mntmFolder = new JMenuItem("Folder");
 		mnImport.add(mntmFolder);
 		
+		mntmFolder_1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				newFoler.main(null);
+			}
+			
+			
+			
+		});
+
+		
 		JMenuItem mntmSchedule = new JMenuItem("Schedule");
 		mnNew.add(mntmSchedule);
 		
@@ -86,10 +99,11 @@ public class Glass {
 		mntmScript.addActionListener(new ActionListener() {
 
 	        @Override
-	        public void actionPerformed(ActionEvent arg0) {
-	            JFileChooser OpenScript = new JFileChooser();
+	        public void actionPerformed(ActionEvent arg0) {     	
+	        	JFileChooser OpenScript = new JFileChooser();
 	            OpenScript.showOpenDialog(null);
 	            File userScript = OpenScript.getSelectedFile();
+	            scriptImport.main(null);
 	        }
 	    });
 
@@ -101,6 +115,7 @@ public class Glass {
 	            openFolder.setFileSelectionMode( JFileChooser.DIRECTORIES_ONLY);
 	            openFolder.showOpenDialog(null);
 	            File userFolder = openFolder.getSelectedFile();
+	            scriptImport.main(null);
 	            
 	        }
 	    });
@@ -128,4 +143,5 @@ public class Glass {
 		
 		
 	}
+	
 }

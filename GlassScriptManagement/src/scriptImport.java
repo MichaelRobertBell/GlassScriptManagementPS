@@ -39,102 +39,125 @@ public class scriptImport {
 	 * Create the application.
 	 */
 	public scriptImport() {
-		initialize();
+		initialize("");
 	}
 
 	/**
 	 * Initialize the contents of the frame.
 	 */
-	private void initialize() {
+	private void initialize(String arg) {
 		frmImport = new JFrame();
 		frmImport.setBackground(SystemColor.desktop);
 		frmImport.setTitle("Import");
-		frmImport.setBounds(100, 100, 500, 300);
+		frmImport.setBounds(100, 100, 500, 340);
 		frmImport.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		JButton btnSubmit = new JButton("Submit");
-		
+
 		JCheckBox chckbxGitSupport = new JCheckBox("Git Support");
-		
+
 		JComboBox scriptType = new JComboBox();
-		
+
 		JEditorPane editorPane = new JEditorPane();
-		
+
 		textField = new JTextField();
 		textField.setColumns(10);
-		
+
 		textField_1 = new JTextField();
 		textField_1.setColumns(10);
-		
+
 		JLabel lblScriptName = new JLabel("Script Name:");
-		
+
 		JLabel lblDescription = new JLabel("Description:");
-		
+
 		JLabel lblType = new JLabel("Key Words:");
-		
+
 		JLabel lblNewLabel = new JLabel("Scripting Language:");
-		
+
 		JLabel lblGitSupport = new JLabel("Git Support:");
+		
+		JLabel lblFilePath = new JLabel("File Path:");
+		
+		JLabel lbFP = new JLabel("");
+		lbFP.setText("pass path here");
+		
 		GroupLayout groupLayout = new GroupLayout(frmImport.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
-				.addGroup(groupLayout.createSequentialGroup()
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-						.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
+				.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+						.addGroup(groupLayout.createSequentialGroup()
 							.addGap(359)
-							.addComponent(btnSubmit, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+							.addComponent(btnSubmit, GroupLayout.DEFAULT_SIZE, 116, Short.MAX_VALUE))
 						.addGroup(groupLayout.createSequentialGroup()
 							.addGap(24)
-							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addComponent(lblType)
-								.addComponent(lblNewLabel)
-								.addComponent(lblScriptName)
-								.addComponent(lblDescription)
-								.addComponent(lblGitSupport))
-							.addGap(44)
-							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
-									.addComponent(chckbxGitSupport)
-									.addGap(182))
-								.addComponent(textField, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE)
-								.addComponent(textField_1, GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE)
-								.addComponent(scriptType, 0, 255, Short.MAX_VALUE)
-								.addComponent(editorPane, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE))))
+							.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addComponent(lblNewLabel)
+										.addComponent(lblGitSupport))
+									.addGap(44)
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addComponent(chckbxGitSupport)
+										.addComponent(scriptType, 0, 312, Short.MAX_VALUE)))
+								.addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+									.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+										.addComponent(lblType)
+										.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+											.addComponent(lblFilePath)
+											.addComponent(lblScriptName)
+											.addComponent(lblDescription)))
+									.addGap(83)
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addComponent(textField_1, GroupLayout.DEFAULT_SIZE, 311, Short.MAX_VALUE)
+										.addComponent(editorPane, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 311, Short.MAX_VALUE)
+										.addComponent(textField, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 311, Short.MAX_VALUE)))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addPreferredGap(ComponentPlacement.RELATED, 195, Short.MAX_VALUE)
+									.addComponent(lbFP)
+									.addGap(256)))))
 					.addContainerGap())
 		);
 		groupLayout.setVerticalGroup(
-			groupLayout.createParallelGroup(Alignment.LEADING)
-				.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
-					.addGap(25)
-					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-						.addComponent(lblScriptName))
+			groupLayout.createParallelGroup(Alignment.TRAILING)
+				.addGroup(groupLayout.createSequentialGroup()
+					.addGap(16)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addComponent(lbFP)
+						.addComponent(lblFilePath))
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addGap(6)
-							.addComponent(editorPane, GroupLayout.PREFERRED_SIZE, 81, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-								.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(lblType))
-							.addPreferredGap(ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
-							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-								.addComponent(scriptType, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(lblNewLabel))
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
-									.addComponent(btnSubmit)
-									.addContainerGap())
-								.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
-									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-										.addComponent(chckbxGitSupport)
-										.addComponent(lblGitSupport))
-									.addGap(36))))
+							.addGap(5)
+							.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 						.addGroup(groupLayout.createSequentialGroup()
-							.addGap(25)
+							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addComponent(lblScriptName)))
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addGroup(groupLayout.createSequentialGroup()
+							.addPreferredGap(ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+							.addComponent(editorPane, GroupLayout.PREFERRED_SIZE, 75, GroupLayout.PREFERRED_SIZE)
+							.addGap(18))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addGap(38)
 							.addComponent(lblDescription)
-							.addContainerGap())))
+							.addPreferredGap(ComponentPlacement.RELATED)))
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblType))
+					.addPreferredGap(ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(scriptType, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblNewLabel))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+						.addGroup(groupLayout.createSequentialGroup()
+							.addComponent(btnSubmit)
+							.addContainerGap())
+						.addGroup(groupLayout.createSequentialGroup()
+							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+								.addComponent(lblGitSupport)
+								.addComponent(chckbxGitSupport))
+							.addGap(36))))
 		);
 		frmImport.getContentPane().setLayout(groupLayout);
 	}
