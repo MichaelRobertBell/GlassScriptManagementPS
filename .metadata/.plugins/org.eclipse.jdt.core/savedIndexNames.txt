@@ -1,7 +1,6 @@
 INDEX VERSION 1.126+C:\Users\mbell_000\Documents\GitHub\GlassScriptManagementPS\.metadata\.plugins\org.eclipse.jdt.core
 1090402639.index
 4018706093.index
-443877310.index
 683184654.index
 3626931047.index
 3015671029.index
