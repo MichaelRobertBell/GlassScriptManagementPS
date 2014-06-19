@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
+<<<<<<< HEAD
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_z0QUwPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_z0QUwfffEeOV9o3jjQ7g0Q" bindingContexts="_z0QUw_ffEeOV9o3jjQ7g0Q">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;GSM.db&quot; tooltip=&quot;GlassScriptManagement/GSM.db&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManagement/GSM.db&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SQLiteJDBC.java&quot; tooltip=&quot;GlassScriptManagement/src/SQLiteJDBC.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManagement/src/SQLiteJDBC.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;Glass.java&quot; tooltip=&quot;GlassScriptManagement/src/Glass.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManagement/src/Glass.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+=======
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_X6REQfcdEeOctfyC-ndP9w" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_X6REQvcdEeOctfyC-ndP9w" bindingContexts="_X6RERPcdEeOctfyC-ndP9w">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;GSM.db&quot; tooltip=&quot;GlassScriptManagement/GSM.db&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManagement/GSM.db&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;sqlite.jar&quot; tooltip=&quot;GlassScriptManagement/src/sqlite.jar&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManagement/src/sqlite.jar&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SQLiteJDBC.java&quot; tooltip=&quot;GlassScriptManagement/src/SQLiteJDBC.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManagement/src/SQLiteJDBC.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;GlassScriptManagement/src/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManagement/src/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;Glass.java&quot; tooltip=&quot;GlassScriptManager/src/Glass.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManager/src/Glass.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;.project&quot; tooltip=&quot;GlassScriptManager/.project&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManager/.project&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;GlassScriptManager/src/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GlassScriptManager/src/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_z0QUwfffEeOV9o3jjQ7g0Q" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_0L7N4_ffEeOV9o3jjQ7g0Q" label="%trimmedwindow.label.eclipseSDK" x="234" y="234" width="1024" height="768">
@@ -71,6 +76,7 @@
           <tags>persp.newWizSC:org.eclipse.mylyn.tasks.ui.wizards.new.repository.task</tags>
           <tags>persp.viewSC:org.eclipse.wb.core.StructureView</tags>
           <tags>persp.viewSC:org.eclipse.wb.core.PaletteView</tags>
+<<<<<<< HEAD
           <children xsi:type="basic:PartSashContainer" xmi:id="_0lLbYPffEeOV9o3jjQ7g0Q" selectedElement="_0lLbYfffEeOV9o3jjQ7g0Q" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_0lLbYfffEeOV9o3jjQ7g0Q" containerData="2500" selectedElement="_0lLbYvffEeOV9o3jjQ7g0Q">
               <children xsi:type="basic:PartStack" xmi:id="_0lLbYvffEeOV9o3jjQ7g0Q" elementId="left" containerData="6000" selectedElement="_0lLbY_ffEeOV9o3jjQ7g0Q">
@@ -84,17 +90,40 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_0lLbZ_ffEeOV9o3jjQ7g0Q" elementId="org.eclipse.jdt.junit.ResultView" toBeRendered="false" ref="_0lJmMfffEeOV9o3jjQ7g0Q"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_0lLbaPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.wb.core.StructureView" toBeRendered="false" ref="_0lK0UPffEeOV9o3jjQ7g0Q"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_0lLbafffEeOV9o3jjQ7g0Q" elementId="org.eclipse.wb.core.PaletteView" toBeRendered="false" ref="_0lK0UfffEeOV9o3jjQ7g0Q"/>
+=======
+          <children xsi:type="basic:PartSashContainer" xmi:id="_YzIl8_cdEeOctfyC-ndP9w" selectedElement="_YzIl9PcdEeOctfyC-ndP9w" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_YzIl9PcdEeOctfyC-ndP9w" containerData="5410" selectedElement="_YzIl9fcdEeOctfyC-ndP9w">
+              <children xsi:type="basic:PartStack" xmi:id="_YzIl9fcdEeOctfyC-ndP9w" elementId="left" containerData="6000" selectedElement="_YzIl9vcdEeOctfyC-ndP9w">
+                <tags>newtablook</tags>
+                <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>active</tags>
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzIl9vcdEeOctfyC-ndP9w" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_YyiwEPcdEeOctfyC-ndP9w"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzJNAPcdEeOctfyC-ndP9w" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_YynBgPcdEeOctfyC-ndP9w"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzJNAfcdEeOctfyC-ndP9w" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_YynBgfcdEeOctfyC-ndP9w"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzJNAvcdEeOctfyC-ndP9w" elementId="org.eclipse.ui.navigator.ProjectExplorer" toBeRendered="false" ref="_YynBgvcdEeOctfyC-ndP9w"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzJNA_cdEeOctfyC-ndP9w" elementId="org.eclipse.jdt.junit.ResultView" toBeRendered="false" ref="_YzHX0PcdEeOctfyC-ndP9w"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzJNBPcdEeOctfyC-ndP9w" elementId="org.eclipse.wb.core.StructureView" toBeRendered="false" ref="_YzIl8PcdEeOctfyC-ndP9w"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzJNBfcdEeOctfyC-ndP9w" elementId="org.eclipse.wb.core.PaletteView" toBeRendered="false" ref="_YzIl8fcdEeOctfyC-ndP9w"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_0lLbavffEeOV9o3jjQ7g0Q" elementId="org.eclipse.egit.ui.RepositoriesViewMStack" toBeRendered="false" containerData="4000">
                 <tags>newtablook</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_0lLba_ffEeOV9o3jjQ7g0Q" elementId="org.eclipse.egit.ui.RepositoriesView" toBeRendered="false" ref="_0lJmMPffEeOV9o3jjQ7g0Q"/>
               </children>
             </children>
+<<<<<<< HEAD
             <children xsi:type="basic:PartSashContainer" xmi:id="_0lLbbPffEeOV9o3jjQ7g0Q" containerData="7500" selectedElement="_0lLbbfffEeOV9o3jjQ7g0Q">
               <children xsi:type="basic:PartSashContainer" xmi:id="_0lLbbfffEeOV9o3jjQ7g0Q" containerData="7500" selectedElement="_0lLbbvffEeOV9o3jjQ7g0Q" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_0lLbbvffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_0k0PAPffEeOV9o3jjQ7g0Q"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_0lLbb_ffEeOV9o3jjQ7g0Q" containerData="2500">
                   <children xsi:type="basic:PartStack" xmi:id="_0lLbcPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" containerData="5000" selectedElement="_0lLbcfffEeOV9o3jjQ7g0Q">
+=======
+            <children xsi:type="basic:PartSashContainer" xmi:id="_YzJNCPcdEeOctfyC-ndP9w" containerData="4590" selectedElement="_YzJNCfcdEeOctfyC-ndP9w">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_YzJNCfcdEeOctfyC-ndP9w" containerData="7500" selectedElement="_YzJNCvcdEeOctfyC-ndP9w" horizontal="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_YzJNCvcdEeOctfyC-ndP9w" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_YyV7wPcdEeOctfyC-ndP9w"/>
+                <children xsi:type="basic:PartSashContainer" xmi:id="_YzJNC_cdEeOctfyC-ndP9w" containerData="2500">
+                  <children xsi:type="basic:PartStack" xmi:id="_YzJNDPcdEeOctfyC-ndP9w" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" containerData="5000" selectedElement="_YzJNDfcdEeOctfyC-ndP9w">
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
                     <tags>newtablook</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_0lLbcfffEeOV9o3jjQ7g0Q" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_0lKNQPffEeOV9o3jjQ7g0Q"/>
                   </children>
@@ -140,11 +169,37 @@
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
+<<<<<<< HEAD
     <sharedElements xsi:type="advanced:Area" xmi:id="_0k0PAPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.editorss" selectedElement="_0k0PAfffEeOV9o3jjQ7g0Q">
       <children xsi:type="basic:PartStack" xmi:id="_0k0PAfffEeOV9o3jjQ7g0Q" elementId="org.eclipse.e4.primaryDataStack">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+=======
+    <sharedElements xsi:type="advanced:Area" xmi:id="_YyV7wPcdEeOctfyC-ndP9w" elementId="org.eclipse.ui.editorss" selectedElement="_YyV7wfcdEeOctfyC-ndP9w">
+      <children xsi:type="basic:PartStack" xmi:id="_YyV7wfcdEeOctfyC-ndP9w" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_PwTy8Pe_EeOyU5fDoNYUWA">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_dd1oQPciEeOQYsOC-mGNLw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Glass.java" iconURI="platform:/plugin/org.eclipse.wb.core.ui/icons/gui_editor.gif" tooltip="GlassScriptManagement/src/Glass.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wb.core.guiEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GlassScriptManagement/src/Glass.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;607&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wb.core.guiEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_icnlQPe4EeOyU5fDoNYUWA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Test.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" tooltip="GlassScriptManagement/src/Test.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GlassScriptManagement/src/Test.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;32&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_PwTy8Pe_EeOyU5fDoNYUWA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SQLiteJDBC.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" tooltip="GlassScriptManagement/src/SQLiteJDBC.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GlassScriptManagement/src/SQLiteJDBC.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;441&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_0k9Y8PffEeOV9o3jjQ7g0Q" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.gif" tooltip="Workspace" closeable="true">
@@ -153,7 +208,11 @@
       <tags>categoryTag:Java</tags>
       <tags>active</tags>
       <tags>activeOnClose</tags>
+<<<<<<< HEAD
       <menus xmi:id="_0mLg8PffEeOV9o3jjQ7g0Q" elementId="org.eclipse.jdt.ui.PackageExplorer">
+=======
+      <menus xmi:id="_Y65a0PcdEeOctfyC-ndP9w" elementId="org.eclipse.jdt.ui.PackageExplorer">
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
@@ -171,8 +230,13 @@
       <tags>View</tags>
       <tags>categoryTag:General</tags>
     </sharedElements>
+<<<<<<< HEAD
     <sharedElements xsi:type="basic:Part" xmi:id="_0lBDUvffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.gif" tooltip="0 errors, 4 warnings, 0 others" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (5 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+=======
+    <sharedElements xsi:type="basic:Part" xmi:id="_YynokPcdEeOctfyC-ndP9w" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.gif" tooltip="0 errors, 4 warnings, 0 others" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_0_jDMPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.views.ProblemView">
@@ -256,6 +320,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0NFrgPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NJ88PffEeOV9o3jjQ7g0Q" elementId="new.group"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NJ88fffEeOV9o3jjQ7g0Q" elementId="newWizardDropDown"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NJ88vffEeOV9o3jjQ7g0Q" elementId="new.ext" visible="false"/>
@@ -269,20 +334,59 @@
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NO1cvffEeOV9o3jjQ7g0Q" elementId="build.ext" visible="false"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NO1c_ffEeOV9o3jjQ7g0Q" elementId="additions"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1Fq5UPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.wb.core.wizards.actions.NewDesignerTypeDropDownAction"/>
+=======
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFTWgPfFEeOQlJN_GK0E0g" elementId="new.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFTWgffFEeOQlJN_GK0E0g" elementId="newWizardDropDown"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFTWgvfFEeOQlJN_GK0E0g" elementId="new.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFTWg_fFEeOQlJN_GK0E0g" elementId="save.group" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFTWhPfFEeOQlJN_GK0E0g" elementId="save"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFTWhffFEeOQlJN_GK0E0g" elementId="saveAll"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFTWhvfFEeOQlJN_GK0E0g" elementId="save.ext" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NFT9kPfFEeOQlJN_GK0E0g" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" enabled="false" command="_X7sAqfcdEeOctfyC-ndP9w"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFYPAPfFEeOQlJN_GK0E0g" elementId="print.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFYPAffFEeOQlJN_GK0E0g" elementId="build.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFYPAvfFEeOQlJN_GK0E0g" elementId="build.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFYPA_fFEeOQlJN_GK0E0g" elementId="additions"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBMPfFEeOQlJN_GK0E0g" elementId="org.eclipse.wb.core.wizards.actions.NewDesignerTypeDropDownAction"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0NFrgfffEeOV9o3jjQ7g0Q" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_0NFrgvffEeOV9o3jjQ7g0Q" elementId="additions" toBeRendered="false"/>
+=======
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_YWE2gPcdEeOctfyC-ndP9w" elementId="additions" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_sepm8PcgEeOQYsOC-mGNLw" elementId="org.eclipse.debug.ui.breakpointActionSet">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBMffFEeOQlJN_GK0E0g" elementId="breakpointGroup"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBMvfFEeOQlJN_GK0E0g" elementId="org.eclipse.debug.ui.actions.SkipAllBreakpoints"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_Y0_nIPcdEeOctfyC-ndP9w" elementId="org.eclipse.debug.ui.launchActionSet">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBM_fFEeOQlJN_GK0E0g" elementId="debug"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBNPfFEeOQlJN_GK0E0g" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBNffFEeOQlJN_GK0E0g" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBNvfFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1CLgcPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1C2O0PffEeOV9o3jjQ7g0Q" elementId="debug"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1C214PffEeOV9o3jjQ7g0Q" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1C3c8PffEeOV9o3jjQ7g0Q" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1FrgYPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+=======
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBN_fFEeOQlJN_GK0E0g" elementId="JavaWizards"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBOPfFEeOQlJN_GK0E0g" elementId="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBOffFEeOQlJN_GK0E0g" elementId="org.eclipse.jdt.ui.actions.OpenPackageWizard"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBOvfFEeOQlJN_GK0E0g" elementId="org.eclipse.jdt.ui.actions.NewTypeDropDown"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1DJJwPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1FsugPffEeOV9o3jjQ7g0Q" elementId="JavaWizards"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1FtVkPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1Ft8oPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.jdt.ui.actions.OpenPackageWizard"/>
@@ -294,6 +398,22 @@
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1C4rEPffEeOV9o3jjQ7g0Q" elementId="openType"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1FvKwPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.mylyn.tasks.ui.openTask"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1Fvx0PffEeOV9o3jjQ7g0Q" elementId="org.eclipse.search.OpenSearchDialogPage"/>
+=======
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBO_fFEeOQlJN_GK0E0g" elementId="Search"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZBPPfFEeOQlJN_GK0E0g" elementId="openType"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZoQPfFEeOQlJN_GK0E0g" elementId="org.eclipse.mylyn.tasks.ui.openTask"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZoQffFEeOQlJN_GK0E0g" elementId="org.eclipse.search.OpenSearchDialogPage"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_qvRB0PfBEeO6ksb9T3NOgA" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Nxwz4PfFEeOQlJN_GK0E0g" elementId="Presentation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Nxwz4ffFEeOQlJN_GK0E0g" elementId="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Nxwz4vfFEeOQlJN_GK0E0g" elementId="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Nxxa8PfFEeOQlJN_GK0E0g" elementId="org.eclipse.mylyn.java.ui.editor.folding.auto"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Nxxa8ffFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Nxxa8vfFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Nxxa8_fFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0NFrg_ffEeOV9o3jjQ7g0Q" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -301,6 +421,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0NGSkPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NO1dPffEeOV9o3jjQ7g0Q" elementId="history.group"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NO1dfffEeOV9o3jjQ7g0Q" elementId="group.application" visible="false"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NO1dvffEeOV9o3jjQ7g0Q" elementId="backardHistory"/>
@@ -310,6 +431,17 @@
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1FwY4PffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1Fw_8PffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_1FxnAPffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+=======
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFYPBPfFEeOQlJN_GK0E0g" elementId="history.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFY2EPfFEeOQlJN_GK0E0g" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFY2EffFEeOQlJN_GK0E0g" elementId="backardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFY2EvfFEeOQlJN_GK0E0g" elementId="forwardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFY2E_fFEeOQlJN_GK0E0g" elementId="pin.group"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NFY2FPfFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_X7kr2PcdEeOctfyC-ndP9w"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZoQvfFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZoQ_fFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NHZoRPfFEeOQlJN_GK0E0g" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0NGSkfffEeOV9o3jjQ7g0Q" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -321,8 +453,13 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0NG5ovffEeOV9o3jjQ7g0Q" elementId="org.eclipse.ui.workbench.help" visible="false">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NQDkPffEeOV9o3jjQ7g0Q" elementId="group.help"/>
         <children xsi:type="menu:OpaqueToolItem" xmi:id="_0NQDkfffEeOV9o3jjQ7g0Q" elementId="group.application" visible="false"/>
+=======
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFZdIPfFEeOQlJN_GK0E0g" elementId="group.help"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_NFZdIffFEeOQlJN_GK0E0g" elementId="group.application" visible="false"/>
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_0cdkQPffEeOV9o3jjQ7g0Q" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>

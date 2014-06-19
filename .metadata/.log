@@ -356,6 +356,7 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SESSION 2014-06-19 12:23:53.631 -----------------------------------------------
 eclipse.buildId=4.3.2.M20140221-1700
 java.version=1.7.0_60
@@ -724,3 +725,5 @@ org.osgi.service.prefs.BackingStoreException: Exception loading preferences from
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+=======
+>>>>>>> parent of eb8db74... Added function to import, and folder gui
