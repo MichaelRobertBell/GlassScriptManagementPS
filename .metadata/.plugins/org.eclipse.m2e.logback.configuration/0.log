@@ -123,3 +123,4 @@ java.util.zip.ZipException: error in opening zip file
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_60]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_60]
 	at java.lang.Thread.run(Unknown Source) [na:1.7.0_60]
+2014-06-19 14:37:10,368 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16

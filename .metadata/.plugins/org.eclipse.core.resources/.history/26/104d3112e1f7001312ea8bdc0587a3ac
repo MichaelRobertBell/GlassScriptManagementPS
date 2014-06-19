@@ -17,7 +17,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.ScrollPane;
-import java.io.File;
 
 import javax.swing.JMenuItem;
 
@@ -89,7 +88,6 @@ public class Glass {
 	        public void actionPerformed(ActionEvent arg0) {
 	            JFileChooser OpenScript = new JFileChooser();
 	            OpenScript.showOpenDialog(null);
-	            File userScript = OpenScript.getSelectedFile();
 	        }
 	    });
 
@@ -100,8 +98,6 @@ public class Glass {
 	            JFileChooser openFolder = new JFileChooser();
 	            openFolder.setFileSelectionMode( JFileChooser.DIRECTORIES_ONLY);
 	            openFolder.showOpenDialog(null);
-	            File userFolder = openFolder.getSelectedFile();
-	            
 	        }
 	    });
 		
