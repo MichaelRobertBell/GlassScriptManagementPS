@@ -109,8 +109,6 @@ public class Glass {
 	            JFileChooser openFolder = new JFileChooser();
 	            openFolder.setFileSelectionMode( JFileChooser.DIRECTORIES_ONLY);
 	            openFolder.showOpenDialog(null);
-	            File temp = openFolder.getSelectedFile();
-	            JOptionPane.showMessageDialog(openFolder, temp.toString());
 	        }
 	    });
 		
