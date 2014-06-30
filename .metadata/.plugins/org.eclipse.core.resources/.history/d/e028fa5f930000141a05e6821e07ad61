@@ -1,0 +1,310 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JToolBar;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JPopupMenu;
+
+import java.awt.Component;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.ScrollPane;
+import java.io.File;
+
+import javax.swing.JMenuItem;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JSplitPane;
+import javax.swing.JInternalFrame;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JTree;
+
+
+public class Glass {
+
+	private JFrame frame;
+	private JTextField textField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Glass window = new Glass();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+		
+
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public Glass() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 800, 489);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JMenuBar menuBar = new JMenuBar();
+		frame.setJMenuBar(menuBar);
+		
+		JMenu mnNew = new JMenu("New");
+		menuBar.add(mnNew);
+		
+		JMenuItem mntmFolder_1 = new JMenuItem("Folder");
+		mnNew.add(mntmFolder_1);
+		
+		JMenu mnImport = new JMenu("Import");
+		mnNew.add(mnImport);
+		
+		JMenuItem mntmScript = new JMenuItem("Script");
+		mnImport.add(mntmScript);
+		
+		JMenuItem mntmFolder = new JMenuItem("Folder");
+		mnImport.add(mntmFolder);
+		
+		mntmFolder_1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				newFoler.main(null);
+			}
+			
+			
+			
+		});
+
+		
+		JMenuItem mntmSchedule = new JMenuItem("Schedule");
+		mnNew.add(mntmSchedule);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		
+		JScrollPane scrollPane_2 = new JScrollPane();
+		
+		textField = new JTextField();
+		textField.setColumns(10);
+		
+		JButton btnSearch = new JButton("Search");
+		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
+		groupLayout.setHorizontalGroup(
+			groupLayout.createParallelGroup(Alignment.LEADING)
+				.addGroup(groupLayout.createSequentialGroup()
+					.addContainerGap()
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addGroup(groupLayout.createSequentialGroup()
+							.addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 204, GroupLayout.PREFERRED_SIZE)
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addComponent(scrollPane_1, GroupLayout.PREFERRED_SIZE, 204, GroupLayout.PREFERRED_SIZE)
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addComponent(scrollPane_2, GroupLayout.DEFAULT_SIZE, 344, Short.MAX_VALUE))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addComponent(textField, GroupLayout.PREFERRED_SIZE, 248, GroupLayout.PREFERRED_SIZE)
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addComponent(btnSearch)))
+					.addContainerGap())
+		);
+		groupLayout.setVerticalGroup(
+			groupLayout.createParallelGroup(Alignment.LEADING)
+				.addGroup(groupLayout.createSequentialGroup()
+					.addContainerGap()
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(btnSearch)
+						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addComponent(scrollPane, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 381, Short.MAX_VALUE)
+						.addComponent(scrollPane_1, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 381, Short.MAX_VALUE)
+						.addComponent(scrollPane_2, GroupLayout.DEFAULT_SIZE, 381, Short.MAX_VALUE))
+					.addContainerGap())
+		);
+		
+		JPanel panel = new JPanel();
+		scrollPane_2.setViewportView(panel);
+		
+		JLabel lblPlaceholder = new JLabel("PlaceHolder");
+		
+		JLabel lblDiscription = new JLabel("Discription:");
+		
+		JLabel lblName = new JLabel("Name:");
+		
+		JLabel lblLocation = new JLabel("Location:");
+		
+		JLabel lblKeyTerms = new JLabel("Key Terms:");
+		
+		JLabel lblScriptType = new JLabel("Script Type:");
+		
+		JButton btnRun = new JButton("Run");
+		
+		JButton btnSchedule = new JButton("Schedule");
+		
+		JButton btnOpenGit = new JButton("Open Git");
+		
+		JButton btnOpenFolderLocation = new JButton("Open Folder Location");
+		
+		JButton btnEditScript = new JButton("Edit Script");
+		
+		JButton btnOpenIn = new JButton("Open In");
+		
+		JButton btnSendTo = new JButton("Send To");
+		
+		JButton btnEditGlassContent = new JButton("Edit Glass Content");
+		GroupLayout gl_panel = new GroupLayout(panel);
+		gl_panel.setHorizontalGroup(
+			gl_panel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(143)
+							.addComponent(lblPlaceholder))
+						.addGroup(gl_panel.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(lblDiscription))
+						.addGroup(gl_panel.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(lblName))
+						.addGroup(gl_panel.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(lblLocation))
+						.addGroup(gl_panel.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(lblKeyTerms))
+						.addGroup(gl_panel.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(lblScriptType))
+						.addGroup(Alignment.TRAILING, gl_panel.createSequentialGroup()
+							.addContainerGap()
+							.addGroup(gl_panel.createParallelGroup(Alignment.TRAILING)
+								.addGroup(gl_panel.createSequentialGroup()
+									.addComponent(btnRun, GroupLayout.DEFAULT_SIZE, 125, Short.MAX_VALUE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(btnSchedule, GroupLayout.PREFERRED_SIZE, 150, GroupLayout.PREFERRED_SIZE))
+								.addGroup(Alignment.LEADING, gl_panel.createSequentialGroup()
+									.addGroup(gl_panel.createParallelGroup(Alignment.TRAILING, false)
+										.addComponent(btnOpenGit, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+										.addComponent(btnEditScript, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+										.addComponent(btnOpenFolderLocation, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+									.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+										.addGroup(gl_panel.createSequentialGroup()
+											.addPreferredGap(ComponentPlacement.UNRELATED)
+											.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+												.addComponent(btnEditGlassContent, GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)
+												.addComponent(btnSendTo, GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)))
+										.addGroup(gl_panel.createSequentialGroup()
+											.addGap(12)
+											.addComponent(btnOpenIn, GroupLayout.DEFAULT_SIZE, 146, Short.MAX_VALUE)))))
+							.addPreferredGap(ComponentPlacement.RELATED)))
+					.addContainerGap(71, GroupLayout.PREFERRED_SIZE))
+		);
+		gl_panel.setVerticalGroup(
+			gl_panel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(lblPlaceholder)
+					.addGap(18)
+					.addComponent(lblDiscription)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(lblName)
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(lblLocation)
+					.addGap(18)
+					.addComponent(lblKeyTerms)
+					.addGap(18)
+					.addComponent(lblScriptType)
+					.addGap(42)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(btnSchedule)
+						.addComponent(btnRun))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(btnOpenGit)
+						.addComponent(btnOpenIn))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(btnOpenFolderLocation)
+						.addComponent(btnSendTo))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(btnEditScript)
+						.addComponent(btnEditGlassContent))
+					.addContainerGap(43, Short.MAX_VALUE))
+		);
+		panel.setLayout(gl_panel);
+		
+		JTree tree = new JTree();
+		scrollPane.setViewportView(tree);
+		frame.getContentPane().setLayout(groupLayout);
+		
+		mntmScript.addActionListener(new ActionListener() {
+
+	        @Override
+	        public void actionPerformed(ActionEvent arg0) {     	
+	            scriptImport.main(null);
+	        }
+	    });
+
+		mntmFolder.addActionListener(new ActionListener() {
+
+	        @Override
+	        public void actionPerformed(ActionEvent arg0) {
+	            JFileChooser openFolder = new JFileChooser();
+	            openFolder.setFileSelectionMode( JFileChooser.DIRECTORIES_ONLY);
+	            openFolder.showOpenDialog(null);
+	            File userFolder = openFolder.getSelectedFile();
+	            scriptImport.main(null);
+	            
+	        }
+	    });
+		
+	}
+
+	
+	
+	private static void addPopup(Component component, final JPopupMenu popup) {
+		component.addMouseListener(new MouseAdapter() {
+			public void mousePressed(MouseEvent e) {
+				if (e.isPopupTrigger()) {
+					showMenu(e);
+				}
+			}
+			public void mouseReleased(MouseEvent e) {
+				if (e.isPopupTrigger()) {
+					showMenu(e);
+				}
+			}
+			private void showMenu(MouseEvent e) {
+				popup.show(e.getComponent(), e.getX(), e.getY());
+			}
+		});
+		
+		
+	}
+}

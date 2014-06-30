@@ -8,13 +8,16 @@ import javax.swing.JCheckBox;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JComboBox;
 import javax.swing.JEditorPane;
+import javax.swing.JFileChooser;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
+
 import java.awt.SystemColor;
+import java.io.File;
 
 
 public class scriptImport {
-
+	
 	private JFrame frmImport;
 	private JTextField textField;
 	private JTextField textField_1;
@@ -46,6 +49,65 @@ public class scriptImport {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize(String arg) {
+		JFileChooser OpenScript = new JFileChooser();
+        OpenScript.showOpenDialog(null);
+        File userScript = OpenScript.getSelectedFile();
+        OpenScript.getName(userScript);
+		
+        //needs to be in the database, and saved on exit if edited
+        String[] scriptsArray = {
+				"AutoHotKey",
+				"AppleScript",
+				"AWK",
+				"BeanShell",
+				"Bash",
+				"Candle",
+				"Ch",
+				"CLIST",
+				"ColdFusion",
+				"ECMAScript",
+				"ActionScript",
+				"ECMAScript for XML",
+				"JavaScript",
+				"JScript",
+				"CMS EXEC",
+				"EXEC 2",
+				"F-Script",
+				"Falcon",
+				"Fancy",
+				"Frink",
+				"Game Maker Language (GML)",
+				"ICI",
+				"Io",
+				"JASS",
+				"Groovy",
+				"Join Java",
+				"Julia",
+				"Tea",
+				"Lua",
+				"MAXScript",
+				"MEL",
+				"Obix",
+				"Oriel",
+				"Perl",
+				"PHP",
+				"Pikt",
+				"Python",
+				"R",
+				"REBOL",
+				"REXX",
+				"Revolution",
+				"Ruby",
+				"Smalltalk",
+				"S-Lang",
+				"sed",
+				"Tcl",
+				"TorqueScript",
+				"UNIX shell",
+				"VBScript",
+				"WebDNA",
+				"Windows PowerShell",
+				"Winbatch"};
 		frmImport = new JFrame();
 		frmImport.setBackground(SystemColor.desktop);
 		frmImport.setTitle("Import");
@@ -56,11 +118,19 @@ public class scriptImport {
 
 		JCheckBox chckbxGitSupport = new JCheckBox("Git Support");
 
-		JComboBox scriptType = new JComboBox();
+		JComboBox<Object> scriptType = new JComboBox<Object>(scriptsArray);
+		scriptType.setEditable(true);
 
 		JEditorPane editorPane = new JEditorPane();
 
 		textField = new JTextField();
+		String FileName=OpenScript.getName(userScript).toString();
+		
+		textField.setText(FileName.substring(0, FileName.lastIndexOf('.')));
+		
+		FileName.substring(FileName.lastIndexOf('.'),FileName.length());
+		
+		
 		textField.setColumns(10);
 
 		textField_1 = new JTextField();
@@ -79,59 +149,54 @@ public class scriptImport {
 		JLabel lblFilePath = new JLabel("File Path:");
 		
 		JLabel lbFP = new JLabel("");
-		lbFP.setText("pass path here");
+		lbFP.setText(userScript.toString());
 		
 		GroupLayout groupLayout = new GroupLayout(frmImport.getContentPane());
 		groupLayout.setHorizontalGroup(
-			groupLayout.createParallelGroup(Alignment.LEADING)
-				.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
+			groupLayout.createParallelGroup(Alignment.TRAILING)
+				.addGroup(groupLayout.createSequentialGroup()
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 						.addGroup(groupLayout.createSequentialGroup()
 							.addGap(359)
-							.addComponent(btnSubmit, GroupLayout.DEFAULT_SIZE, 116, Short.MAX_VALUE))
+							.addComponent(btnSubmit, GroupLayout.DEFAULT_SIZE, 115, Short.MAX_VALUE))
 						.addGroup(groupLayout.createSequentialGroup()
 							.addGap(24)
-							.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 								.addGroup(groupLayout.createSequentialGroup()
 									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-										.addComponent(lblNewLabel)
-										.addComponent(lblGitSupport))
+										.addComponent(lblGitSupport)
+										.addComponent(lblNewLabel))
 									.addGap(44)
 									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 										.addComponent(chckbxGitSupport)
-										.addComponent(scriptType, 0, 312, Short.MAX_VALUE)))
-								.addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
-									.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-										.addComponent(lblType)
-										.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-											.addComponent(lblFilePath)
-											.addComponent(lblScriptName)
-											.addComponent(lblDescription)))
+										.addComponent(scriptType, 0, 311, Short.MAX_VALUE)))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addComponent(lblFilePath)
+										.addComponent(lblDescription)
+										.addComponent(lblScriptName)
+										.addComponent(lblType))
 									.addGap(83)
 									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-										.addComponent(textField_1, GroupLayout.DEFAULT_SIZE, 311, Short.MAX_VALUE)
-										.addComponent(editorPane, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 311, Short.MAX_VALUE)
-										.addComponent(textField, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 311, Short.MAX_VALUE)))
-								.addGroup(groupLayout.createSequentialGroup()
-									.addPreferredGap(ComponentPlacement.RELATED, 195, Short.MAX_VALUE)
-									.addComponent(lbFP)
-									.addGap(256)))))
+										.addComponent(lbFP)
+										.addComponent(textField_1, GroupLayout.DEFAULT_SIZE, 306, Short.MAX_VALUE)
+										.addComponent(editorPane, Alignment.TRAILING)
+										.addComponent(textField, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 306, Short.MAX_VALUE))))))
 					.addContainerGap())
 		);
 		groupLayout.setVerticalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
 				.addGroup(groupLayout.createSequentialGroup()
-					.addGap(16)
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-						.addComponent(lbFP)
-						.addComponent(lblFilePath))
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+					.addGap(15)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+						.addComponent(lblFilePath)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addGap(5)
-							.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-						.addGroup(groupLayout.createSequentialGroup()
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(lblScriptName)))
+							.addComponent(lbFP)
+							.addPreferredGap(ComponentPlacement.RELATED)))
+					.addGap(5)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblScriptName))
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
 							.addPreferredGap(ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
@@ -144,8 +209,8 @@ public class scriptImport {
 					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 						.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 						.addComponent(lblType))
-					.addPreferredGap(ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
-					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+					.addPreferredGap(ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 						.addComponent(scriptType, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 						.addComponent(lblNewLabel))
 					.addPreferredGap(ComponentPlacement.UNRELATED)

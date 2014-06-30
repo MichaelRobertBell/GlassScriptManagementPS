@@ -4,4 +4,8 @@
 		id="org.eclipse.wb.swing.components.menu javax.swing.JMenuItem"
 		category="org.eclipse.wb.swing.components.menu"
 		nextEntry="org.eclipse.wb.swing.components.menu javax.swing.JCheckBoxMenuItem"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.containers javax.swing.JScrollPane"
+		category="org.eclipse.wb.swing.containers"
+		nextEntry="org.eclipse.wb.swing.containers javax.swing.JToolBar"/>
 </commands>
