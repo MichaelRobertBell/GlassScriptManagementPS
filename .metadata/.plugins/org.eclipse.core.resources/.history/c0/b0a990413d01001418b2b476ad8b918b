@@ -219,23 +219,23 @@ public class Glass {
 		panel.add(btnEditGlassContent);
 		
 		JLabel lblPhname = new JLabel("phName");
-		lblPhname.setBounds(78, 45, 254, 14);
+		lblPhname.setBounds(78, 45, 46, 14);
 		panel.add(lblPhname);
 		
 		JLabel lblPhlocation = new JLabel("phLocation");
-		lblPhlocation.setBounds(78, 70, 254, 14);
+		lblPhlocation.setBounds(78, 70, 46, 14);
 		panel.add(lblPhlocation);
 		
 		JLabel lblPhtype = new JLabel("phType");
-		lblPhtype.setBounds(78, 95, 254, 14);
+		lblPhtype.setBounds(78, 95, 46, 14);
 		panel.add(lblPhtype);
 		
 		JLabel lblPhkeyterms = new JLabel("phKeyTerms");
-		lblPhkeyterms.setBounds(78, 120, 254, 14);
+		lblPhkeyterms.setBounds(78, 120, 46, 14);
 		panel.add(lblPhkeyterms);
 		
 		JLabel lblPhdiscription = new JLabel("phDiscription");
-		lblPhdiscription.setBounds(78, 157, 254, 81);
+		lblPhdiscription.setBounds(78, 157, 46, 14);
 		panel.add(lblPhdiscription);
 		
 		JTree tree = new JTree();

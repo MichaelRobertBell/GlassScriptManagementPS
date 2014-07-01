@@ -16,7 +16,6 @@ import java.awt.SystemColor;
 import java.io.File;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.DefaultComboBoxModel;
 
 
 public class scriptImport {
@@ -115,21 +114,19 @@ public class scriptImport {
 		frmImport.setResizable(false);
 		frmImport.setBackground(SystemColor.desktop);
 		frmImport.setTitle("Import");
-		frmImport.setBounds(100, 100, 500, 387);
+		frmImport.setBounds(100, 100, 500, 325);
 		frmImport.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		JButton btnSubmit = new JButton("Submit");
 
-		btnSubmit.setBounds(263, 284, 115, 23);
+		btnSubmit.setBounds(359, 267, 115, 23);
 
 		final JCheckBox chckbxGitSupport = new JCheckBox("Git Support");
-		chckbxGitSupport.setBounds(163, 262, 79, 23);
+		chckbxGitSupport.setBounds(163, 242, 79, 23);
 
 		final JComboBox<Object> scriptType = new JComboBox<Object>(scriptsArray);
+		scriptType.setBounds(163, 218, 311, 20);
 		scriptType.setEditable(true);
-		scriptType.setToolTipText("");
-		scriptType.setModel(new DefaultComboBoxModel(new String[] {"AutoHotKey", "AppleScript", "AWK", "BeanShell", "Bash", "Candle", "Ch", "CLIST", "ColdFusion", "ECMAScript", "ActionScript", "ECMAScript for XML", "JavaScript", "JScript", "CMS EXEC", "EXEC 2", "F-Script", "Falcon", "Fancy", "Frink", "Game Maker Language (GML)", "ICI", "Io", "JASS", "Groovy", "Join Java", "Julia", "Tea", "Lua", "MAXScript", "MEL", "Obix", "Oriel", "Perl", "PHP", "Pikt", "Python", "R", "REBOL", "REXX", "Revolution", "Ruby", "Smalltalk", "S-Lang", "sed", "Tcl", "TorqueScript", "UNIX shell", "VBScript", "WebDNA", "Windows PowerShell", "Winbatch"}));
-		scriptType.setBounds(168, 195, 306, 20);
 
 		final JEditorPane editorPane = new JEditorPane();
 		editorPane.setBounds(168, 66, 306, 75);
@@ -153,22 +150,22 @@ public class scriptImport {
 		lblScriptName.setBounds(24, 37, 61, 14);
 
 		JLabel lblDescription = new JLabel("Description:");
-		lblDescription.setBounds(24, 100, 57, 14);
+		lblDescription.setBounds(24, 92, 57, 14);
 
 		JLabel lblType = new JLabel("Key Words:");
 		lblType.setBounds(24, 162, 56, 14);
 
 		JLabel lblNewLabel = new JLabel("Scripting Language:");
-		lblNewLabel.setBounds(24, 198, 95, 14);
+		lblNewLabel.setBounds(24, 221, 95, 14);
 
 		JLabel lblGitSupport = new JLabel("Git Support:");
-		lblGitSupport.setBounds(24, 266, 58, 14);
+		lblGitSupport.setBounds(24, 246, 58, 14);
 		
 		JLabel lblFilePath = new JLabel("File Path:");
 		lblFilePath.setBounds(24, 15, 45, 14);
 		
 		final JLabel lbFP = new JLabel("");
-		lbFP.setBounds(168, 15, 306, 14);
+		lbFP.setBounds(168, 15, 55, 14);
 		lbFP.setText(userScript.toString());
 		frmImport.getContentPane().setLayout(null);
 		frmImport.getContentPane().add(btnSubmit);
@@ -185,26 +182,16 @@ public class scriptImport {
 		frmImport.getContentPane().add(editorPane);
 		frmImport.getContentPane().add(textField);
 		
-		JLabel lblFolder = new JLabel("Folder:");
-		lblFolder.setBounds(24, 235, 46, 14);
-		frmImport.getContentPane().add(lblFolder);
-		
-		JComboBox<Object> comboBox = new JComboBox<Object>(new Object[]{});
-		comboBox.setToolTipText("");
-		comboBox.setEditable(true);
-		comboBox.setBounds(168, 235, 306, 20);
-		frmImport.getContentPane().add(comboBox);
-		
 		btnSubmit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				String fileExtension = userScript.toString();
-				String fileText = textField.getText();
-				String fileDes = editorPane.getText();
-				String fileKeys = keyWords.getText();
-				String fileType = scriptType.getSelectedItem().toString();
+				String fileExtension = FileName;
+				String fileText = textField.toString();
+				String fileDes = editorPane.toString();
+				String fileKeys = keyWords.toString();
+				String fileType = scriptType.toString();
 				Boolean fileGit = chckbxGitSupport.isSelected();
 				
-				System.out.println(fileExtension + " " +  fileText + " " + fileDes + " " + fileKeys + " " + fileType + " " + fileGit);
+				System.out.println(fileExtension + fileText + fileDes + fileKeys + fileType + fileGit);
 				System.exit(0);
 				
 			}

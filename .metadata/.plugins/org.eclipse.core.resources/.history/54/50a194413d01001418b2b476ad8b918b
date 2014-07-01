@@ -48,14 +48,14 @@ public class newFoler {
 	private void initialize() {
 		frmNewFolder = new JFrame();
 		frmNewFolder.setTitle("New Folder");
-		frmNewFolder.setBounds(100, 100, 550, 85);
+		frmNewFolder.setBounds(100, 100, 525, 85);
 		frmNewFolder.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		JLabel lblFolderName = new JLabel("Folder Name:");
-		lblFolderName.setBounds(10, 14, 65, 14);
+		lblFolderName.setBounds(10, 14, 64, 14);
 
 		folderName = new JTextField();
-		folderName.setBounds(91, 11, 340, 20);
+		folderName.setBounds(84, 11, 340, 20);
 		folderName.setColumns(10);
 
 
@@ -71,7 +71,7 @@ public class newFoler {
 				System.exit(0);
 			}
 		});
-		btnSubmit.setBounds(441, 10, 83, 23);
+		btnSubmit.setBounds(434, 10, 65, 23);
 		frmNewFolder.getContentPane().setLayout(null);
 		frmNewFolder.getContentPane().add(lblFolderName);
 		frmNewFolder.getContentPane().add(folderName);
